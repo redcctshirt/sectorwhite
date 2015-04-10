@@ -1,0 +1,31 @@
+%include head
+      		
+		<hr>
+		<div class="xyz"><h3>{{answer['question']}}</h3></div>
+%for i in randomlist:
+		<div class="xyz"><button class="btn btn-large btn-block" type="button" id="answer{{i}}" rel="popover" data-placement="right" data-content="
+%if answer['answer'][i]['t'] == True: 
+	Richtig 
+%else: 
+	Falsch 
+%end
+">{{answer['answer'][i]['value']}}</button></div>
+%end
+      		
+		    <div class="xyzcenter"><button id="ant" type="button" class="btn btn-large" disabled>Antwort</button></div>		
+		    <ul class="pager">
+    			<li class="next"><a href="javascript:location.reload()">Next</a></li>
+    		    </ul>
+
+	<script>  
+	$(document).ready(function() { 
+%for i in randomlist:
+		$("#answer{{i}}").click(function() {
+			var title = $(this).attr("data-content");
+			$("#ant").html(title);
+		}); 
+%end
+	});  
+	</script> 
+
+%include foot

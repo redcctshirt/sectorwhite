@@ -1,0 +1,27 @@
+{ 
+  
+"1": { 
+	"tags": ["www"],
+	"question": "In welchem Jahr wurde das World Wide Web zur Benutzung freigegeben?",
+	"answer": [
+		   {"value": "1991", "t": true}, 
+	           {"value": "1995", "t": false}, 
+	           {"value": "1979", "t": false},
+		   {"value": "1989", "t": false},
+	           {"value": "2001", "t": false}
+		  ]
+		  
+	},
+"2": { 
+	"tags": ["www"],
+	"question": "Wann entstand das World Wide Web als Projekt am CERN bei Genf?",
+	"answer": [
+		   {"value": "1991", "t": false},
+ 		   {"value": "1995", "t": false},
+		   {"value": "1979", "t": false},
+		   {"value": "1989", "t": true}
+		  ]
+	}
+
+}
+

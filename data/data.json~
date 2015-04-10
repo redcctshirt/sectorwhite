@@ -1,0 +1,283 @@
+{ 
+  
+"1": { 
+	"type": ["onetrue"],
+	"category": "www",
+	"tags": ["www"],
+	"image": "",
+	"question": "In welchem Jahr wurde das World Wide Web zur Benutzung freigegeben?",
+	"answer": [
+		   {"value": "1991", "t": true}, 
+	           {"value": "1995", "t": false}, 
+	           {"value": "1979", "t": false},
+		   {"value": "1989", "t": false},
+	           {"value": "2001", "t": false}
+		  ]
+		  
+	},
+"2": { 
+	"type": ["onetrue"],
+	"category": "www",
+	"tags": ["www"],
+	"image": "",
+	"question": "Wann entstand das World Wide Web als Projekt am CERN bei Genf?",
+	"answer": [
+		   {"value": "1991", "t": false},
+ 		   {"value": "1995", "t": false},
+		   {"value": "1979", "t": false},
+		   {"value": "1989", "t": true}
+		  ]
+	},
+"3": { 
+	"type": ["onetrue"],
+	"category": "www",
+	"tags": ["www"],
+	"image": "",
+	"question": "Wer erfand HTML und ist der Begründer des World Wide Web ?",
+	"answer": [
+		   {"value": "Bill Gates", "t": false},
+ 		   {"value": "Tim Berners-Lee", "t":true},
+ 		   {"value": "Larry Wall", "t":false},
+ 		   {"value": "Charles Goldfarb", "t":false}
+		  ]
+	},
+"4": { 
+	"type": ["onetrue"],
+	"category": "www",
+	"tags": ["www"],
+	"image": "",
+	"question": "Wann wurde der britische Informatiker Tim Berners-Lee in London geboren ?",
+	"answer": [
+		   {"value": "1952", "t": false },
+ 		   {"value": "1958", "t": false},
+ 		   {"value": "1955", "t": true},
+ 		   {"value": "1949", "t": false}
+		  ]
+	},
+"5": { 
+	"type": ["onetrue"],
+	"category": "www",
+	"tags": ["www"],
+	"image": "",
+	"question": "Was ist das W3C ?",
+	"answer": [
+		{"value": "World Wide Web Cambridge - Europäische Kommission für HTML", "t": false },
+		{"value":"World Wide Web Consortium - Standardisierungsgremium für das World Wide Web","t": true},
+ 		{"value":"World Wrestling Consortium - internationales Sportgremium, 1995 gegründet","t": false},
+		{"value":"World Candidate Communication Congress - jährlicher Programmier-Kongress in Brüssel","t": false}
+                 ]
+	},
+"6": { 
+	"type": ["onetrue"],
+	"category": "www",
+	"tags": ["www"],
+	"image": "",
+	"question": "Wann wurde das W3C gegründet ?",
+	"answer": [
+		  {"value": "1990", "t": false},
+	          {"value":"1994", "t": true},
+	          {"value":"2001", "t": false},
+		  {"value":"1995", "t": false}
+	         ]
+	},
+"7": {  
+	"type": ["onetrue"],
+	"tags": ["perl","Programmiersprache"],
+	"image": "",
+	"category": "informatik",
+	"question": "Wer ist der Erfinder der Programmiersprache Perl ?",
+	"answer": [
+		   {"value": "Bill Gates", "t": false},
+		   {"value": "Larry Wall", "t":true},
+		   {"value": "Dennis Ritchie", "t":false},
+		   {"value": "Guido van Rossum", "t":false}
+		]
+	},
+"8": {  
+	"type": ["onetrue"],
+	"tags": ["perl","Programmiersprache"],
+	"image": "",
+	"category": "informatik",
+	"question": "Wann wurde Larry Wall der Erfinder der Programmiersprache Perl geboren ?",
+	"answer": [
+		 {"value": "1954 in L.A.", "t": true},
+		 {"value": "1951 in New York", "t":false},
+		 {"value": "1950 in Dallas","t":false},
+		 {"value": "1949 in London","t":false}
+		 ]
+	},
+"9": {  
+	"type": ["onetrue"],
+	"tags": ["fsf","gnu"],
+	"image": "",
+	"category": "informatik",
+	"question": "Wer gründete das GNU-Projekt und war erster Präsident der Free Software Foundation ?",
+	"answer": [
+		{"value": "Larry Wall", "t": false},
+		{"value": "Bill Gates", "t": false},
+		{"value": "Richard Stallman", "t": true},
+		{"value": "Dennis Ritchie", "t": false}
+		 ]
+	},
+"10": {  
+	"type": ["onetrue"],
+	"tags": ["fsf"],
+	"image": "",
+	"category": "informatik",
+	"question": "Wann wurde Richard Stallman der US-amerikanische Aktivist für freie Software geboren ?",
+	"answer": [
+		{"value":"1951 in L.A.", "t": false },
+		{"value":"1950 in London", "t":false},
+		{"value":"1953 in New York City", "t":true},
+		{"value":"1956 in Dallas", "t":false}
+		]
+	},
+"11": {  
+	"type": ["onetrue"],
+	"tags": ["php","Programmiersprache"],
+	"image": "",
+	"category": "informatik",
+	"question": "In welchem Jahr erschien PHP ?",
+	"answer": [
+		{"value":"1991", "t":false },
+		{"value":"1999", "t":false},
+		{"value":"1995", "t":true},
+		{"value":"1993", "t":false}
+		]
+	},
+"12": {  
+	"type": ["onetrue"],
+	"tags": ["javascript","www","web"],
+	"image": "",
+	"category": "informatik",
+	"question": "Was ist V8 ?",
+	"answer": [
+		{"value":"Eine von Microsoft entwickelte Programmiersprache, die erstmals 1991 veröffentlicht wurde", "t":false },
+		{"value":"Eine Funktion vom Webserver Apache der Requests beschleunigt und skaliert", "t":false},
+		{"value":"Ein von Google entwickelter, schneller Javascript-Compiler, der seit 2006 entwickelt wird", "t":true},
+		{"value":"Eine globale Variable von PHP die bestimmt welche String-Prozesse erlaubt sind", "t":false}
+		]
+	},
+"13": {  
+	"type": ["onetrue"],
+	"tags": ["javascript","node.js","web","www"],
+	"image": "",
+	"category": "informatik",
+	"question": "... ist ein Framework und wird für die Entwicklung von serverseitiger, hoch leistungsfähiger und echtzeitfähiger Webanwendungen in Javascript verwendet. Es wurde 2009 veröffentlicht und von Ryan Lienhart Dahl entwickelt.",
+	"answer": [
+		{"value":"node.js", "t":true },
+		{"value":"jQuery", "t":false},
+		{"value":"php", "t":false},
+		{"value":"mvc", "t":false}
+		]
+	},
+"14": {  
+	"type": ["onetrue"],
+	"tags": ["python","Programmiersprache"],
+	"image": "",
+	"category": "informatik",
+	"question": "Von wem wurde am Anfang die Programmiersprache Python entwickelt ?",
+	"answer": [
+		{"value":"Guido van Rossum", "t":true },
+		{"value":"Larry Wall", "t":false},
+		{"value":"Andre Swarson", "t":false},
+		{"value":"Monty Python", "t":false}
+		]
+	},
+"15": {  
+	"type": ["onetrue"],
+	"tags": ["python","Betriebssystem","Amoeba"],
+	"image": "",
+	"category": "informatik",
+	"question": "Was ist Amoeba ?",
+	"answer": [
+		{"value":"ist ein von Andrew S. Tanenbaum entwickeltes verteiltes Betriebssystem, wobei die Programmiersprache Python dafür entwickelt wurde", "t":true },
+		{"value":"ist ein von Andrew S. Tanenbaum entwickeltes Datenbanksystem, wobei die Programmiersprache LISP dafür entwickelt wurde", "t":false},
+		{"value":"ist ein von Larry Wall entwickeltes Javascript-Framework, wobei die MVC-Technik dafür entwickelt wurde", "t":false},
+		{"value":"ist ein von Larry Wall entwickeltes node.js-Modul für Netzwerkprozesse, wobei die Programmiersprache JPython dafür entwickelt wurde", "t":false}
+		]
+	},
+"16": {  
+	"type": ["onetrue"],
+	"tags": ["python"],
+	"image": "",
+	"category": "informatik",
+	"question": "In welchem Jahr erschien die Programmiersprache Python ?",
+	"answer": [
+		{"value":"1991", "t":true },
+		{"value":"1995", "t":false},
+		{"value":"2000", "t":false},
+		{"value":"1996", "t":false}
+		]
+	},
+"17": {  
+	"type": ["onetrue"],
+	"tags": ["www,web"],
+	"image": "",
+	"category": "www",
+	"question": "Was bedeutet www ?",
+	"answer": [
+		{"value":"World Wide Web", "t":true },
+		{"value":"Webwide Webapplication", "t":false},
+		{"value":"Wikipedia World Webconference", "t":false},
+		{"value":"Wikipedia Wikisource World", "t":false}
+		]
+	},
+"18": {  
+	"type": ["onetrue"],
+	"tags": ["www,web,http"],
+	"image": "",
+	"category": "www",
+	"question": "Was bedeutet HTTP ?",
+	"answer": [
+		{"value":"Hypertext Transfer Protocol", "t":true },
+		{"value":"Hextan Translate Paper", "t":false},
+		{"value":"HTML Translation Package", "t":false},
+		{"value":"Hyper Terminal Translate Protocol", "t":false}
+		]
+	},
+"19": {  
+	"type": ["onetrue"],
+	"tags": ["www,web,http"],
+	"image": "",
+	"category": "www",
+	"question": "Welcher TCP-Port wird für gewöhnlich für das HTTP verwendet ?",
+	"answer": [
+		{"value":"80", "t":true },
+		{"value":"23", "t":false},
+		{"value":"22", "t":false},
+		{"value":"113", "t":false}
+		]
+	},
+"20": {  
+	"type": ["onetrue"],
+	"tags": ["www,web,http"],
+	"image": "",
+	"category": "www",
+	"question": "Welcher HTTP-Statuscode wird bei einer erfolgreichen Datenübertragung angezeigt ?",
+	"answer": [
+		{"value":"200", "t":true },
+		{"value":"404", "t":false},
+		{"value":"500", "t":false},
+		{"value":"403", "t":false}
+		]
+	},
+"21": {  
+	"type": ["onetrue"],
+	"tags": ["www,web,http"],
+	"image": "",
+	"category": "www",
+	"question": "Was bedeutet die Anzeige vom HTTP-Statuscode 404 ?",
+	"answer": [
+		{"value":"Erfolgreiche Übertragung der Daten", "t":false },
+		{"value":"Fehler - Dokument existiert nicht", "t":true},
+		{"value":"Zeitspanne überschritten", "t":false},
+		{"value":"Authentifizierung notwendig", "t":false}
+		]
+	}
+
+
+
+
+}
+

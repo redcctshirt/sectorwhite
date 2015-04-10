@@ -1,0 +1,35 @@
+%include head
+      		
+		<hr>
+		<div class="xyz"><h3>{{answer['question']}}</h3></div>
+		<div class="xyz"><ul class="nav nav-tabs nav-stacked">
+%for i in randomlist:
+		
+		<li><a href="#" style="font-size: 20px">{{answer['answer'][i]['value']}}</a></li>
+		
+%end
+		</ul></div>
+  		
+		    <div class="xyzcenter"><button id="ant" type="button" class="btn btn-medium" disabled>Antwort</button></div>		
+		    <ul class="pager">
+    			<li class="next"><a href="javascript:location.reload()">Next</a></li>
+    		    </ul>
+
+	<script>  
+	$(document).ready(function() { 
+		$(".xyz ul li a").click(function() {
+			var aanswer = $(this).html();
+			var req = $.ajax({
+				url: "control",
+				type: "POST",
+				data: { answer_string: aanswer, filename: "{{filename}}", key: "{{key}}"},
+				dataType: "html"
+				});
+			req.done(function(re) {
+				$("#ant").html(re);
+			});
+		}); 
+	});  
+	</script> 
+
+%include foot

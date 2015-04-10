@@ -1,0 +1,22 @@
+%include head
+% setdefault('k', '{{')
+% setdefault('l', '}}')
+      		
+		<hr>
+		<div class="xyz"><h3>{{answer['question']}}</h3></div>
+%for i in randomlist:
+		<div class="xyz"><button class="btn btn-inverse btn-large btn-block" type="button" ng-click="ranswer=\\
+%if answer['answer'][i]['t'] == True: 
+'Richtig'\\
+%else:
+'Falsch'\\
+%end\\
+"><h4>{{answer['answer'][i]['value']}}</h4></button></div>
+%end
+      		
+		    <div class="xyzcenter"><span class="input-small uneditable-input" style="font-size:20px;color:black">{{k}}ranswer{{l}}</span></div>		
+		    <ul class="pager">
+    			<li class="next"><a href="javascript:location.reload()">Next</a></li>
+    		    </ul>
+
+%include foot

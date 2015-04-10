@@ -1,0 +1,43 @@
+{ 
+
+"1": {  
+	"category": "erde",
+	"question": "Welchen Durchmesser hat der drittnächste Planet der Sonne unseres Sonnensystems ?",
+	"answer": [
+		{"value": "über 12700 km","t": true},
+		{"value": "über 23000 km", "t": false},
+		{"value": "über 40000 km", "t": false},
+		{"value": "über 4580 km", "t": false}
+		]
+	},
+"2": {  
+	"category": "physik",
+	"question": "Bei welchem Wert liegt der Gefrierpunkt in der Fahrenheit-Skala ?",
+	"answer": [
+		{"value": "26,9 °F", "t": false },
+		{"value": "96 °F", "t": false},
+		{"value": "7,5 °F", "t": false},
+		{"value": "32 °F", "t": true}
+		  ]
+	},
+"3": {  
+	"category": "philosophie",
+	"question": "Welcher Philosoph und Schriftsteller wurde am 12. Juli 1817 in Concord, Massachusetts geboren ?",
+	"answer": [
+		 {"value": "Albert Einstein","t": false},
+		 {"value": "Henry David Thoreau", "t":true},
+		 {"value": "Friedrich Nietzsche", "t":false},
+		 {"value": "Georg Wilhelm Friedrich Hegel", "t":false}
+		  ]
+	},
+"4": {  
+	"category": "philosophie",
+	"question": "Wann lebte Henry David Thoreau ?",
+	"answer": [
+		{"value": "1817 - 1862", "t": true},
+		{"value": "1792 - 1843", "t":false},
+		{"value": "1805 - 1852", "t":false},
+		{"value": "1912 - 1986", "t":false}
+		]
+	}
+}
