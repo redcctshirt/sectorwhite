@@ -7,9 +7,9 @@ Lizenz: MIT license
 Die Metadaten (json-Dateien /data) stehen unter der Lizenz: <a href="http://creativecommons.org/publicdomain/zero/1.0/">CC Zero</a>
 
 verwendete Software:    
-http://getbootstrap.com/ MIT license   
-http://jquery.com/ MIT license   
-http://bottlepy.org/ MIT license   
+http://getbootstrap.com/ [MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE)   
+http://jquery.com/ [license](https://jquery.org/license/)   
+http://bottlepy.org/ [MIT license](https://github.com/bottlepy/bottle/blob/master/LICENSE)   
 
 Anwendung:
 
